@@ -53,106 +53,6 @@ def addproduto(nome,category,preco,descricao,image_url):
 
 # simular o firebase
 
-def my_base():
-	
-	
-	bd = [
-	{
-	"produtos": {
-		"id1": {
-			"nome": "Carbrador 4x4 hilux 4 gd -6",
-			
-			"numero": "1",
-			"preco": "3400",
-			"obse": "Pesa muito boa usar para sempre",
-			"img_link": "carbrador.webp"
-			
-			},
-		"id2": {
-			"nome": "Pineu Toyota mark X 34fg",
-			"numero": "2",
-			"preco": "7400",
-			"obse": "Pesa muito boa usar para sempre",
-			"img_link": "roda.jpg"
-			
-			},
-		"id3": {
-			"nome": "Chanci ford raptor  f4x4 gd -6",
-			"numero": "3",
-			"preco": "10.000",
-			"obse": "Pesa muito boa usar para sempre",
-			"img_link": "parachoque.jpg"
-			
-			},
-		"id4": {
-			"nome": "pistao toyota vizs new version 2025",
-			"numero": "4",
-			"preco": "15.000",
-			"obse": "Pesa muito boa usar para sempre",
-			"img_link": "pistao.webp"
-			
-			},
-		},
-	},
-		{
-	"clientes": {
-		"id1": {
-			"Email": "vandro@gmail.com",
-			"tell": "879349159",
-			"reservas": "34",
-			
-			
-			},
-		"id2": {
-			"nome": "vandro@gmail.com",
-			"tell": "87555555",
-			"reservas": "400",
-			
-			
-			},
-	
-	
-	},
-		},
-	{"reservas": {
-		"id1": {
-			"data": "12/08/2025",
-			"item": "Carbrador 4x4 hilux 4 gd -6",
-			"preco": "3400",
-			"nome": "Vandro",
-			"tell": "879349159",
-			"email": "vandro@gmail.com:",
-			"status": "pendente",
-			"numeroR": "1",
-			"artigo n": "1",
-			
-			
-			
-			},
-		"id2": {
-			"data": "12/08/2025",
-			"item": "Chanci  fortuner 4 gd -6",
-			"preco": "3400",
-			"nome": "Vandro",
-			"tell": "879349159",
-			"email": "vandro@gmail.com:",
-			"status": "pendente",
-			"numeroR": "1",
-			"artigo n": "1",
-			
-			
-			},
-	
-	
-	},
-	},
-
-	]
-	
-	return bd
-
-##fim do simulador
-
 
 def my_banco_base(aba):
 	rota = ""
@@ -748,3 +648,5 @@ def service():
 
 
 
+if __name__ == "__main__":
+    app.run(debug="False")
