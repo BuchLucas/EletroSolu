@@ -750,5 +750,5 @@ def service():
 
 
 
-app.run(debug="True")
+app.run()
 
